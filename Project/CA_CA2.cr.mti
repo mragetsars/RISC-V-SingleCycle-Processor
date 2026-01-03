@@ -1,0 +1,85 @@
+{C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Register.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Signe_Extend.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Signe_Extend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sgn_Extend
+
+Top level modules:
+	Sgn_Extend
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/RISCV_Top_Module.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/RISCV_Top_Module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISCV_Top_Module
+
+Top level modules:
+	RISCV_Top_Module
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Decode_Stage.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Decode_Stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Decode_type
+
+Top level modules:
+	Decode_type
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Instruction_mem.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Instruction_mem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Instr_Mem
+
+Top level modules:
+	Instr_Mem
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/ALU.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/MUX.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/MUX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux
+
+Top level modules:
+	Mux
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/RISCV_Controller.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/RISCV_Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RISCV_Controller
+
+Top level modules:
+	RISCV_Controller
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Register_File.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Register_File.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/TB.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_RiscV_Top
+
+Top level modules:
+	tb_RiscV_Top
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Adder.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Data_Mem.v} {1 {vlog -work work -stats=none {C:/Users/mrage/Programs/Codes/Verilog/CA_CA2/New New folder/codes/Data_Mem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_Mem
+
+Top level modules:
+	Data_Mem
+
+} {} {}}
