@@ -2,11 +2,11 @@
 
 > **Computer Architecture - University of Tehran - Department of Electrical & Computer Engineering**
 
-![Verilog](https://img.shields.io/badge/Language-Verilog-blue) ![Tool](https://img.shields.io/badge/Sim-ModelSim-green) ![Status](https://img.shields.io/badge/Status-Completed-success)
+![Language](https://img.shields.io/badge/Language-Verilog-orange) ![Tool](https://img.shields.io/badge/Tool-ModelSim-blue) ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## 📌 Overview
 
-This repository contains the Register Transfer Level (RTL) implementation of a **Single-Cycle RISC-V Processor**. This project was developed as the second assignment for the *Computer Architecture* course at the University of Tehran.
+This repository contains the Register Transfer Level (RTL) implementation of a **Single-Cycle RISC-V Processor**. This project was developed as the *Second Assignment* for the *Computer Architecture* course at the University of Tehran.
 
 The processor executes each instruction in one clock cycle, providing a clear and direct implementation of the RISC-V Instruction Set Architecture (ISA). It handles fundamental instruction types including R-type, I-type, Load, Store, and Branching.
 
@@ -14,24 +14,22 @@ The processor executes each instruction in one clock cycle, providing a clear an
 
 The design is strictly modular, consisting of a comprehensive datapath and a central controller.
 
-### Datapath Design
+### 🗺️ DataPath Design
 
 The datapath manages the execution flow and data processing. It connects components such as the ALU, Register File, and Memories.
-
 ![Datapath Architecture](./Design/DataPath.png)
 
-### Control Unit
+### 🎮 ControlUnit Design
 
 The Controller decodes instructions and generates signals to orchestrate the datapath's behavior.
-
-| Instruction            | Opcode  | RegWrite | ImmSrc | ALUSrc | MemWrite | ResultSrc | Branch | ALUOp |
-| ---------------------- | ------- | -------- | ------ | ------ | -------- | --------- | ------ | ----- |
-| R-type (add, sub, ...) | 110011  | 1        | XX     | 0      | 0        | 0         | 0      | 10    |
-| I-type (lw)            | 11      | 1        | 0      | 1      | 0        | 1         | 0      | 0     |
-| S-type (sw)            | 100011  | 0        | 1      | 1      | 1        | XX        | 0      | 0     |
-| B-type (beq)           | 1100011 | 0        | 10     | 0      | 0        | XX        | 1      | 1     |
-| I-type (addi)          | 10011   | 1        | 0      | 1      | 0        | 0         | 0      | 10    |
-| J-type (jal)           | 1101111 | 1        | 11     | X      | 0        | 10        | 0      | XX    |
+  | Instruction            | Opcode  | RegWrite | ImmSrc | ALUSrc | MemWrite | ResultSrc | Branch | ALUOp |
+  | ---------------------- | ------- | -------- | ------ | ------ | -------- | --------- | ------ | ----- |
+  | R-type (add, sub, ...) | 110011  | 1        | XX     | 0      | 0        | 0         | 0      | 10    |
+  | I-type (lw)            | 11      | 1        | 0      | 1      | 0        | 1         | 0      | 0     |
+  | S-type (sw)            | 100011  | 0        | 1      | 1      | 1        | XX        | 0      | 0     |
+  | B-type (beq)           | 1100011 | 0        | 10     | 0      | 0        | XX        | 1      | 1     |
+  | I-type (addi)          | 10011   | 1        | 0      | 1      | 0        | 0         | 0      | 10    |
+  | J-type (jal)           | 1101111 | 1        | 11     | X      | 0        | 10        | 0      | XX    |
 
 ## 📂 Repository Structure
 
